@@ -1,0 +1,101 @@
+body {
+	font: 100%/30px Futura Book,'Helvetica Neue', helvetica, arial, sans-serif;
+	background: #F0F0F0;
+}
+
+.inner{
+	margin: 0 auto;
+	padding: 20px;
+	max-width: 1000px;
+	min-width:700px;
+}
+
+header {
+	background: #CCE821;
+	width: 100%; 
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-bottom:1px solid #666;
+	border-top:1px solid #666;
+}
+
+
+table {
+	background: #f5f5f5;
+	border-collapse: separate;
+	box-shadow: inset 0 1px 0 #fff;
+	font-size: 12px;
+	line-height: 24px;
+	margin: 145px auto;
+	text-align: left;
+	width: 800px;
+}	
+
+td {
+	border-right: 1px solid #526605;
+	border-left: 1px solid #526605;
+	border-top: 1px solid #526605;
+	border-bottom: 1px solid #526605;
+	padding: 10px 15px;
+	position: relative;
+}
+	
+#mainContainer {
+	width: 700px;
+	margin: 0px auto;
+	background-color: #DFDFDF;
+	padding: 40px;
+	border-radius: 20px 20px 20px 20px;
+	border: 1px solid #999999;
+}
+
+#searchkabel {
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+
+.suchen {
+	background-color:#f9f9f9;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#666666;
+	font-size:15px;
+	font-weight:normal;
+	font-style:normal;
+	height:65px;
+	line-height:65px;
+	width:131px;
+	text-decoration:none;
+	text-align:center;
+	vertical-align: top;
+}
+.suchen:hover {
+	background-color:#e9e9e9;
+}
+.suchen:active {
+	position:relative;
+	top:1px;
+}
+#term{
+	background-color:#f9f9f9;
+	border:1px solid #dcdcdc;
+	text-indent:0;
+	display:inline-block;
+	color:#666666;
+	font-size:25px;
+	font-weight:normal;
+	font-style:normal;
+	height:60px;
+	line-height:65px;
+	width:200px;
+	text-decoration:none;
+	text-align:left;
+	vertical-align: top;
+}
+article{
+	margin:100px 35%;
+}
